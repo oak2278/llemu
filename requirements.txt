@@ -1,0 +1,10 @@
+# Core dependencies
+pathlib>=1.0.1
+typing>=3.7.4.3
+
+# For HTML report generation
+jinja2>=3.0.0
+
+# For testing
+pytest>=6.0.0
+pytest-cov>=2.10.0

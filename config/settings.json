@@ -1,0 +1,32 @@
+{
+    "database": {
+        "paths": [
+            "data"
+        ],
+        "preferred_databases": [
+            "No-Intro",
+            "TOSEC",
+            "Redump"
+        ]
+    },
+    "identification": {
+        "min_confidence": 0.8,
+        "preferred_checksum": "md5"
+    },
+    "renaming": {
+        "create_backup": true,
+        "naming_convention": "{title} ({region}) {version} {attributes}",
+        "region_mapping": {
+            "U": "USA",
+            "E": "Europe",
+            "J": "Japan",
+            "W": "World",
+            "A": "Australia"
+        },
+        "organize_by_system": true
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/llemu.log"
+    }
+}
